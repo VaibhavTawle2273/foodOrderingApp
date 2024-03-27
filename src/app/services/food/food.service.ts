@@ -7,16 +7,15 @@ export class FoodService{
 
   constructor() { }
 
-  getAll: string[]{
-    return[
-        '/assets/image-1.jpeg',
-        '/assets/image-2.jpeg',
-        '/assets/image-3.jpeg',
-        '/assets/image-4.jpeg',
-        '/assets/image-5.jpeg',
-        '/assets/image-6.jpeg',
-        '/assets/image-7.jpeg',
-        '/assets/image-8.jpeg'
+  getAll: string[]=[
+        '/assets/food-1.jpeg',
+        '/assets/food-2.jpeg',
+        '/assets/food-3.jpeg',
+        '/assets/food-4.jpeg',
+        '/assets/food-5.jpeg',
+        '/assets/food-6.jpeg',
+        '/assets/food-7.jpeg',
+        '/assets/food-8.jpeg'
       ]
-  }
+  
 }
